@@ -130,3 +130,6 @@ dmypy.json
 
 # Pycharm
 .idea/
+
+# Test
+rango/test_chapter*

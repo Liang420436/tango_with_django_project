@@ -17,6 +17,7 @@ from django.urls import path
 
 from rango import views
 
+app_name = "rango"
 urlpatterns = [
     # The above maps any URLs starting with rango/ to be handled by rango.
     path("", views.index, name="index"),
